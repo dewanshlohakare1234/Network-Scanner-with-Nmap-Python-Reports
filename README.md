@@ -43,7 +43,7 @@
 ```bash
 # Clone the repository
 git clone https://github.com/dewanshlohakare1234/Network-Scanner-with-Nmap-Python-Reports.git
-cd network-scanner
+cd Network-Scanner-with-Nmap-Python-Reports
 
 # Run it (Python 3.6+ required)
 python main.py
