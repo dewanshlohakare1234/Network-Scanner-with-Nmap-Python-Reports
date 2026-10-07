@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Network Scan Report — 2026-10-07 22:43:55</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0d1117; color: #c9d1d9; line-height: 1.6; padding: 2rem;
+  }
+
+  .container { max-width: 1000px; margin: 0 auto; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #161b22, #1a2233);
+    border: 1px solid #30363d; border-radius: 12px;
+    padding: 2rem; margin-bottom: 2rem; text-align: center;
+  }
+  .header h1 { color: #58a6ff; font-size: 1.8rem; margin-bottom: .5rem; }
+  .header p  { color: #8b949e; font-size: .95rem; }
+  .header code {
+    background: #21262d; padding: 3px 8px; border-radius: 4px;
+    font-size: .85rem; color: #79c0ff;
+  }
+
+  /* Stats */
+  .stats {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+    justify-content: center; margin-bottom: 2rem;
+  }
+  .stat-card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 10px;
+    padding: 1.2rem 1.8rem; text-align: center; min-width: 150px; flex: 1;
+  }
+  .stat-card .value { font-size: 2rem; font-weight: 700; color: #58a6ff; }
+  .stat-card .label { color: #8b949e; font-size: .85rem; margin-top: .3rem; }
+
+  /* Host card */
+  .host-card {
+    background: #161b22; border: 1px solid #30363d; border-radius: 10px;
+    padding: 1.5rem; margin-bottom: 1.5rem;
+  }
+  .host-card h2 { color: #79c0ff; font-size: 1.25rem; margin-bottom: .5rem; }
+  .host-meta span { margin-right: 1.5rem; color: #8b949e; font-size: .9rem; }
+
+  /* Table */
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+  th {
+    background: #21262d; color: #8b949e; text-transform: uppercase;
+    font-size: .75rem; letter-spacing: .05em;
+    padding: .6rem 1rem; text-align: left; border-bottom: 1px solid #30363d;
+  }
+  td { padding: .55rem 1rem; border-bottom: 1px solid #21262d; font-size: .9rem; }
+  tr:hover td { background: #1c2128; }
+  .banner-row td { padding: 0 1rem .4rem 1rem; border: none; }
+
+  /* Badges */
+  .badge {
+    display: inline-block; padding: 2px 10px; border-radius: 12px;
+    font-size: .78rem; font-weight: 600;
+  }
+  .badge-open, .badge-up { background: #23863620; color: #3fb950; border: 1px solid #23863650; }
+  .badge-closed, .badge-down { background: #da363420; color: #f85149; border: 1px solid #da363450; }
+
+  /* Banner & SSL */
+  .banner {
+    background: #1c1e26; border-left: 3px solid #58a6ff;
+    padding: .5rem .8rem; font-size: .8rem; border-radius: 4px;
+    color: #8b949e; font-family: monospace; word-break: break-all;
+  }
+  .ssl-info {
+    background: #1c1e26; border-left: 3px solid #3fb950;
+    padding: .5rem .8rem; font-size: .8rem; border-radius: 4px;
+    color: #3fb950; font-family: monospace;
+  }
+  .no-ports { color: #f0883e; margin-top: 1rem; }
+
+  /* Footer */
+  .footer {
+    text-align: center; color: #484f58; font-size: .8rem;
+    margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #21262d;
+  }
+
+  /* Info box */
+  .info-box {
+    background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+    padding: 1rem 1.5rem; margin-bottom: 1.5rem; font-size: .9rem;
+  }
+  .info-box dt { color: #8b949e; float: left; width: 150px; font-weight: 600; }
+  .info-box dd { margin-left: 160px; margin-bottom: .3rem; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🛡️ Network Scan Report</h1>
+    <p>Quick Scan (Top 100 Ports) — 2026-10-07 22:43:55</p>
+    <p style="margin-top:.5rem;">
+      <code>Target: scanme.nmap.org</code>
+    </p>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card">
+      <div class="value">4</div>
+      <div class="label">Open Ports</div>
+    </div>
+    <div class="stat-card">
+      <div class="value">99</div>
+      <div class="label">Ports Scanned</div>
+    </div>
+    <div class="stat-card">
+      <div class="value">7.26s</div>
+      <div class="label">Duration</div>
+    </div>
+    <div class="stat-card">
+      <div class="value">1</div>
+      <div class="label">Hosts</div>
+    </div>
+  </div>
+
+  <div class="info-box">
+    <dl>
+      <dt>Scan Type</dt><dd>Quick Scan (Top 100 Ports)</dd>
+      <dt>Target Input</dt><dd>scanme.nmap.org</dd>
+      <dt>Resolved IP</dt><dd>45.33.32.156</dd>
+      <dt>Scan Time</dt><dd>2026-10-07 22:43:55</dd>
+    </dl>
+  </div>
+
+  
+        <div class="host-card">
+            <h2>🖥️ 45.33.32.156 (scanme.nmap.org)</h2>
+            <div class="host-meta">
+                <span>State: <span class="badge badge-up">up</span></span>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Port</th><th>Protocol</th><th>State</th>
+                        <th>Service</th><th>Product / Version</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><strong>22</strong></td>
+                    <td>tcp</td>
+                    <td><span class="badge badge-open">open</span></td>
+                    <td>ssh</td>
+                    <td>OpenSSH 6.6.1p1</td>
+                </tr>
+                <tr class="banner-row">
+                    <td colspan="5">
+                        <div class="banner">📡 SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>80</strong></td>
+                    <td>tcp</td>
+                    <td><span class="badge badge-open">open</span></td>
+                    <td>http</td>
+                    <td>Apache 2.4.7</td>
+                </tr>
+                <tr class="banner-row">
+                    <td colspan="5">
+                        <div class="banner">📡 HTTP/1.1 200 OK</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>2000</strong></td>
+                    <td>tcp</td>
+                    <td><span class="badge badge-open">open</span></td>
+                    <td>unknown</td>
+                    <td>—</td>
+                </tr>
+                <tr>
+                    <td><strong>5060</strong></td>
+                    <td>tcp</td>
+                    <td><span class="badge badge-open">open</span></td>
+                    <td>unknown</td>
+                    <td>—</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+  <div class="footer">
+    Generated by <strong>Python Network Scanner</strong> — Pure Python, Zero Dependencies
+  </div>
+</div>
+</body>
+</html>

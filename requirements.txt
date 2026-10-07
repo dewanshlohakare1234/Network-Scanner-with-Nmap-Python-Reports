@@ -1,0 +1,16 @@
+# This project uses ONLY Python's built-in standard library.
+# No external packages are required!
+#
+# Just run:  python main.py
+#
+# Modules used (all built-in):
+#   socket               — TCP connections, DNS lookups
+#   ssl                  — TLS/SSL certificate inspection
+#   concurrent.futures   — Multi-threaded scanning
+#   datetime             — Timestamps
+#   os                   — File/directory management
+#   html                 — Safe HTML escaping
+#   webbrowser           — Open reports in browser
+#   re                   — Banner parsing
+#   struct               — Binary data handling
+#   sys                  — Exit handling
