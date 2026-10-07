@@ -1,4 +1,4 @@
-# 🛡️ Network Scanner — Pure Python
+#  Network Scanner — Pure Python
 
 <div align="center">
 
@@ -22,21 +22,21 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 **4 Scan Modes** — Quick, Standard, Deep (all 65,535 ports), and Custom
-- 🌐 **Website Info Scan** — HTTP headers + SSL/TLS certificate inspection
-- 📡 **Banner Grabbing** — Detect software names & versions running on open ports
-- 🔒 **SSL/TLS Analysis** — Read certificates, check expiry, identify TLS version
-- ⚡ **Multi-Threaded** — 200 concurrent threads for blazing-fast scans
-- 📊 **HTML Reports** — Professional dark-themed reports auto-saved to `reports/`
-- 🎨 **Coloured Terminal Output** — Pretty tables with ANSI colours
-- 📦 **Zero Dependencies** — Uses ONLY Python's built-in standard library
-- 🖥️ **Cross-Platform** — Works on Windows, Linux, and macOS
+-  **4 Scan Modes** — Quick, Standard, Deep (all 65,535 ports), and Custom
+-  **Website Info Scan** — HTTP headers + SSL/TLS certificate inspection
+-  **Banner Grabbing** — Detect software names & versions running on open ports
+-  **SSL/TLS Analysis** — Read certificates, check expiry, identify TLS version
+-  **Multi-Threaded** — 200 concurrent threads for blazing-fast scans
+-  **HTML Reports** — Professional dark-themed reports auto-saved to `reports/`
+-  **Coloured Terminal Output** — Pretty tables with ANSI colours
+-  **Zero Dependencies** — Uses ONLY Python's built-in standard library
+-  **Cross-Platform** — Works on Windows, Linux, and macOS
 
 ---
 
-## 📦 Installation
+##  Installation
 
 **No installation needed!** Just clone and run.
 
@@ -53,7 +53,7 @@ python main.py
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Interactive Menu
 
@@ -107,13 +107,13 @@ Target: google.com          # Shows HTTP headers + SSL cert
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Terminal Output
 
 ```
 ══════════════════════════════════════════════════════════════
-  🛡️  NETWORK SCAN REPORT
+    NETWORK SCAN REPORT
 ══════════════════════════════════════════════════════════════
   Scan Type       : Quick Scan (Top 100 Ports)
   Target          : scanme.nmap.org
@@ -136,10 +136,10 @@ Target: google.com          # Shows HTTP headers + SSL cert
 
 The tool generates a professional dark-themed HTML report that opens right in your browser:
 
-- 📊 Stats cards showing open ports, scan duration, total ports scanned
-- 🖥️ Host cards with port tables
-- 📡 Service banners in monospace
-- 🔒 SSL/TLS certificate details
+-  Stats cards showing open ports, scan duration, total ports scanned
+-  Host cards with port tables
+-  Service banners in monospace
+-  SSL/TLS certificate details
 
 Reports are auto-saved to the `reports/` folder with timestamped filenames.
 
@@ -228,7 +228,7 @@ network-scanner/
 
 ---
 
-## 🐍 Built-in Python Modules Used
+##  Built-in Python Modules Used
 
 | Module | Purpose |
 |--------|---------|
@@ -269,7 +269,7 @@ network-scanner/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how:
 
